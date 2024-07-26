@@ -1,0 +1,21 @@
+{
+  "name": "starter",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "start": "samples start",
+    "build": "npm run build --workspaces",
+    "format": "prettier . --write"
+  },
+  "devDependencies": {
+    "@squidcloud/samples": "^1.0.12",
+    "prettier": "^3.2.5"
+  },
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "dependencies": {
+    "date-fns": "^3.6.0"
+  }
+}

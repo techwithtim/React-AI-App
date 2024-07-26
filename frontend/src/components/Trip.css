@@ -1,0 +1,104 @@
+.trip-list-container {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.trip-card {
+  margin-bottom: 10px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.trip-card h4 {
+  margin: 0 0 10px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trip-card p {
+  margin: 5px 0;
+  font-family: Arial, sans-serif;
+  color: #666;
+}
+
+.trip-card ul {
+  margin: 10px 0 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.trip-card ul li {
+  background-color: #f1f1f1;
+  margin-bottom: 5px;
+  padding: 8px;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.note-form {
+  display: flex;
+  margin-top: 10px;
+}
+
+.note-input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  margin-right: 5px;
+}
+
+.add-note-button {
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+}
+
+.add-note-button:hover {
+  background-color: #0056b3;
+}
+
+.delete-button {
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+}
+
+.delete-button:hover {
+  background-color: darkred;
+}
+
+.note {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.country-button {
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff8800;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+}

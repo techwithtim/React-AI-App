@@ -1,0 +1,45 @@
+.trip-container {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.trip-container h3 {
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.trip-form {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trip-form select,
+.trip-form input[type='date'] {
+  width: calc(33% - 10px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  margin: 5px;
+}
+
+.trip-form button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+  margin: 5px;
+}
+
+.trip-form button:hover {
+  background-color: #0056b3;
+}

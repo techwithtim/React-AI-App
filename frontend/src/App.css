@@ -1,0 +1,13 @@
+.card {
+  margin: 20px 20px 20px 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.internal-card {
+  width: 100%;
+  margin-bottom: 20px;
+}
